@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="DynamicTableManager.Site" %>
+<html>
+<head runat="server">
+    <title>Dynamic Table Manager</title>
+</head>
+<body>
+    <form runat="server">
+        <div>
+            <a href="/Account/Register.aspx">Kayıt Ol</a> |
+            <a href="/Account/Login.aspx">Giriş Yap</a> |
+            <a href="/Tables/CreateTable.aspx">Tablo Oluştur</a> |
+            <a href="/Tables/InsertData.aspx">Veri Ekle</a> |
+            <a href="/Tables/ListData.aspx">Veri Listele</a>
+            <a href="/Tables/ListData.aspx">Veri Listele</a>
+        </div>
+        <hr />
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
